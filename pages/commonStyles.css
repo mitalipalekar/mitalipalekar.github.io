@@ -45,14 +45,16 @@ footer .container {
 	text-align: center;
 }
 
-#about .container div > img, #projects div img, #leadership div img, #outreach div img {
-	width: 300px;
+#about .container div > img, #experience div img, #projects div img, #leadership div img, #outreach div img {
+	width: 90%;
 	border: 5px solid;
-	border-color: rgb(45, 62, 218);
+	border-color: white;
 	border-radius: 20px;
-	float: left;
 	background-color: white;
-	margin: 2%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #about .container {
@@ -65,40 +67,53 @@ footer .container {
 
 #about .container div > p {
 	text-align: center;
-	color: rgb(45, 62, 218);
+	color: white;/*rgb(45, 62, 218);*/
 	font-size: 16px;
 	padding: 1%;
 }
 
-.page-header {
+#experience .page-header, #projects .page-header, #leadership .page-header, #outreach .page-header {
 	border: none;
-	color: rgb(45, 62, 218);
+	color: white;
 	text-align: center;
-}
-
-hr {
-	border-color: rgb(45, 62, 218);
-}
-
-#projects, #leadership, #outreach {
-	overflow: hidden;
-	width: 60%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#projects div, #leadership div, #outreach div  {
-	
+hr {
+	border-color: white;
+}
+
+#experience, #projects, #leadership, #outreach {
+	border: 2px solid red;
 	overflow: hidden;
 }
 
-#projects div h2, #leadership div h2, #outreach div h2 {
-	font-size: 20px;
-	color: rgb(45, 62, 218);
+#experience div, #projects div, #leadership div, #outreach div  {
+	border: 2px solid white;
+	width: 30%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 }
 
-#projects div p, #leadership div p, #outreach div p {
+#experience div h2, #projects div h2, #leadership div h2, #outreach div h2 {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	margin: 3%;
+}
+
+#experience div h3, #projects div h3, #leadership div h3, #outreach div h3 {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	margin: 3%;
+}
+
+#experience div p, #projects div p, #leadership div p, #outreach div p {
 	text-align: justify;
 	font-size: 14px;
-	color: rgb(45, 62, 218);
+	color: white;
 }
