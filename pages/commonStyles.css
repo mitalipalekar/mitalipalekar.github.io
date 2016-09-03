@@ -1,39 +1,57 @@
+/*
+NEED TO DO:
+- put footer on every page
+- put text outline around my name on index page
+*/
 body {
 	background: url(../photos/background.jpg) no-repeat center center fixed; 
 	background-size: cover;
 }
 
+body#index {
+	background: url(../photos/profile.jpg) no-repeat center center fixed; 
+	background-size: cover;
+}
 
 header .container {
 	height: 50px;
 }
 
 #introduction .container {
-	padding: 0px;
 	width: 100%;
 }
 
-#introduction .container div div > img {
-	width: 500px;
-	height: 500px;
-	display: block;
-	margin: 2% auto;
-	border: 10px solid;
-	border-color: rgb(45, 62, 218);
+#introduction .container .row {
+	position: relative;
 }
 
-#introduction .container div div > h1, #introduction div div div > h2 {
+#introduction .container .row > h1 {
 	text-align: center;
-	color: rgb(45, 62, 218);
+	color: white;
+	font-size: 80px;
+	position: fixed;
+	bottom: 5%;
+	width: 100%;
+	text-shadow: 1px 0 0; /*need to add outline around text*/
 }
 
-#about .container div div > img {
+footer {
+	background-color: black;
+	color: white;
+}
+
+footer .container {
+	text-align: center;
+}
+
+#about .container div > img, #projects div img, #leadership div img, #outreach div img {
 	width: 300px;
 	border: 5px solid;
 	border-color: rgb(45, 62, 218);
 	border-radius: 20px;
 	float: left;
-	margin-right: 2%;
+	background-color: white;
+	margin: 2%;
 }
 
 #about .container {
@@ -44,9 +62,42 @@ header .container {
 	padding-left: 0px;
 }
 
-#about .container div div > p {
+#about .container div > p {
 	text-align: center;
 	color: rgb(45, 62, 218);
 	font-size: 16px;
 	padding: 1%;
-} 
+}
+
+.page-header {
+	border: none;
+	color: rgb(45, 62, 218);
+	text-align: center;
+}
+
+hr {
+	border-color: rgb(45, 62, 218);
+}
+
+#projects, #leadership, #outreach {
+	overflow: hidden;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#projects div, #leadership div, #outreach div  {
+	
+	overflow: hidden;
+}
+
+#projects div h2, #leadership div h2, #outreach div h2 {
+	font-size: 20px;
+	color: rgb(45, 62, 218);
+}
+
+#projects div p, #leadership div p, #outreach div p {
+	text-align: justify;
+	font-size: 14px;
+	color: rgb(45, 62, 218);
+}
