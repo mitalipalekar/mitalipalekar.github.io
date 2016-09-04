@@ -14,7 +14,7 @@ body#index {
 	background-size: cover;
 }
 
-header .container {
+header .container, header .container-fluid {
 	height: 50px;
 }
 
@@ -45,7 +45,7 @@ footer .container {
 	text-align: center;
 }
 
-#about .container div > img, #experience div img, #projects div img, #leadership div img, #outreach div img {
+#about .container div > img, #experience div div > img, #projects div div > img, #leadership div div > img, #outreach div div > img {
 	border: 5px solid;
 	border-color: white;
 	border-radius: 20px;
@@ -58,8 +58,8 @@ footer .container {
 	margin: 2%;
 }
 
-#experience div img, #projects div img, #leadership div img, #outreach div img {
-	width: 90%;
+#experience div div > img, #projects div div > img, #leadership div div > img, #outreach div div > img {
+	width: 100%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -94,18 +94,20 @@ hr {
 }
 
 #experience, #projects, #leadership, #outreach {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	overflow: hidden;
+	margin-top: 5%;
 }
 
-#experience div, #projects div, #leadership div, #outreach div  {
-	border: 2px solid white;
-	width: 30%;
-	margin-left: 2.5%;
-	margin-right: 2.5%;
+#experience div, #projects div, #leadership div, #outreach div {
+	/*border: 2px solid white;*/
 }
 
-#experience div h2, #projects div h2, #leadership div h2, #outreach div h2 {
+#experience div > div, #projects div > div, #leadership div > div, #outreach div > div {
+	height: 575px;
+}
+
+#experience div div > h2, #projects div div > h2, #leadership div div > h2, #outreach div div > h2 {
 	font-size: 20px;
 	color: white;
 	text-align: center;
@@ -113,15 +115,25 @@ hr {
 	margin: 3%;
 }
 
-#experience div h3, #projects div h3, #leadership div h3, #outreach div h3 {
+#experience div div > h3, #projects div div > h3, #leadership div div > h3, #outreach div div > h3 {
 	font-size: 18px;
 	color: white;
 	text-align: center;
 	margin: 3%;
 }
 
-#experience div p, #projects div p, #leadership div p, #outreach div p {
+#experience div div > p, #projects div div > p, #leadership div div > p, #outreach div div > p {
 	text-align: justify;
 	font-size: 14px;
 	color: white;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display: inline-table;
+    float: none;
+    margin-right: -4px;
 }
