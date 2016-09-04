@@ -18,31 +18,18 @@ header .container, header .container-fluid {
 	height: 50px;
 }
 
-#introduction .container {
-	width: 100%;
-}
-
-#introduction .container .row {
+#introduction .container-fluid .row {
 	position: relative;
 }
 
-#introduction .container .row > h1 {
+#introduction .container-fluid .row > h1 {
 	text-align: center;
 	color: white;
 	font-size: 80px;
 	position: fixed;
 	bottom: 5%;
 	width: 100%;
-	text-shadow: 1px 0 0; /*need to add outline around text*/
-}
-
-footer {
-	background-color: black;
-	color: white;
-}
-
-footer .container {
-	text-align: center;
+	/*text-shadow: 1px 0 0; need to add outline around text*/
 }
 
 #about .container div > img, #experience div div > img, #projects div div > img, #leadership div div > img, #outreach div div > img {
@@ -58,15 +45,8 @@ footer .container {
 	margin: 2%;
 }
 
-#experience div div > img, #projects div div > img, #leadership div div > img, #outreach div div > img {
-	width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 #about .container {
-	margin: 10%;
+	margin: 5%;
 	margin-left: auto;
 	margin-right: auto;
 	width: 80%;
@@ -80,6 +60,17 @@ footer .container {
 	padding: 1%;
 }
 
+#experience {
+	margin: 0px;
+}
+
+#experience div div > img, #projects div div > img, #leadership div div > img, #outreach div div > img {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #experience .page-header, #projects .page-header, #leadership .page-header, #outreach .page-header {
 	border: none;
 	color: white;
@@ -87,7 +78,7 @@ footer .container {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-}
+ }
 
 hr {
 	border-color: white;
