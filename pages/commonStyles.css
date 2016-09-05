@@ -64,12 +64,16 @@ footer a i:hover {
 	margin-left: 2%;
 }
 
-#about .container div > img, #experience div > div > div > img, #projects div > div > div > img, 
-#leadership div > div > div > img, #outreach div > div > div > img {
+#about .container div > img, #experience div > div > div > img, #experience div > div > div > div > a > img, #projects div > div > div > img, #projects div > div > div > div > a > img,
+#leadership div > div > div > img, #leadership div > div > div > div > a > img, #outreach div > div > div > img, #outreach div > div > div > div > a > img {
 	border: 5px solid;
 	border-color: white;
 	border-radius: 20px;
 	background-color: white;
+}
+
+#experience div > div > div > div > a > img:hover, #projects div > div > div > div > a > img:hover, #leadership div > div > div > div > a > img:hover, #outreach div > div > div > div > a > img:hover {
+	border-color: grey;
 }
 
 #about .container div > img {
@@ -97,7 +101,7 @@ footer a i:hover {
 	margin: 0px;
 }
 
-#experience div > div > div > img, #projects div > div > div > img, #leadership div > div > div > img, #outreach div > div > div > img {
+#experience iv > div > div > img, #experience div > div > div > div > a > img, #projects div > div > div > img, #projects div > div > div > div > a > img, #leadership div > div > div > img, #leadership div > div > div > div > a > img, #outreach div > div > div > img, #outreach div > div > div > div > a > img {
 	width: 100%;
 	display: block;
 	margin-left: auto;
@@ -152,6 +156,14 @@ hr {
 	text-align: center;
 	font-size: 16px;
 	color: white;
+}
+
+.projects-github {
+	color: white;
+}
+
+.projects-github:hover {
+	color: grey;
 }
 
 .row-centered {
