@@ -181,24 +181,3 @@ hr {
 }
 
 /*education.html properties*/
-
-/*contact.html properties*/
-#contact section .container .row {
-	border: 2px solid red;
-	color: white;
-}
-
-#contact section .container .row dt, #contact section .container .row dd {
-	border: 2px solid yellow;
-}
-/*
-#contact section .container .row dt {
-	margin-left: 2%;
-}
-
-#contact section .container .row dd {
-	vertical-align: middle;
-	font-size: 16px;
-	float: none;
-	padding-top: 13px;
-}*/
