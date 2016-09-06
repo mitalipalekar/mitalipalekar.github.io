@@ -38,7 +38,7 @@ header .container, header .container-fluid {
 	height: 50px;
 }
 
-#index footer .container-fluid .row, #contact footer .container-fluid .row, #interests footer .container-fluid .row {
+#index footer .container-fluid .row, #contact footer .container-fluid .row, #education footer .container-fluid .row {
 	position: fixed;
 	bottom: 0px;
 }
@@ -180,18 +180,18 @@ hr {
 	border-color: grey;
 }
 
-/*interests.html properties*/
+/*education.html properties*/
 
 /*contact.html properties*/
 #contact section .container .row {
+	border: 2px solid red;
 	color: white;
-	margin-top: 15%;
 }
 
 #contact section .container .row dt, #contact section .container .row dd {
-	margin: 1%;
+	border: 2px solid yellow;
 }
-
+/*
 #contact section .container .row dt {
 	margin-left: 2%;
 }
@@ -201,4 +201,4 @@ hr {
 	font-size: 16px;
 	float: none;
 	padding-top: 13px;
-}
+}*/
