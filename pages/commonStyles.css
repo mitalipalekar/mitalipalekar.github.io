@@ -131,7 +131,7 @@ body#index {
 	margin-right: auto;
 }
 
-#experience .page-header, #projects .page-header, #leadership .page-header, #outreach .page-header, #education .page-header {
+#experience .page-header, #projects .page-header, #leadership .page-header, #outreach .page-header, #education .page-header, #courses .page-header {
 	border: none;
 	color: white;
 	text-align: center;
@@ -186,3 +186,16 @@ hr {
 }
 
 /*education.html properties*/
+#education, #education > div > div {
+	border: 2px solid yellow;
+}
+
+.container-fluid #education .row {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.container-fluid #education .row h2, .container-fluid #education .row p {
+	color: white;
+	margin-bottom: 0.5%;
+}
