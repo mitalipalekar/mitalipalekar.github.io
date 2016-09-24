@@ -195,7 +195,7 @@ hr {
 	padding-bottom: 20px;
 }
 
-.container-fluid #school .row h2, .container-fluid #school .row p, .container-fluid #courses .row h2, .container-fluid #courses .row p {
+.container-fluid #school .row h2, .container-fluid #school .row p,.container-fluid #school .row h2 a, .container-fluid #courses .row h2, .container-fluid #courses .row p {
 	color: white;
 	text-align: justify;
 }
