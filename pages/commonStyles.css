@@ -187,8 +187,8 @@ hr {
 
 /*education.html properties*/
 .container-fluid #school .row, .container-fluid #courses .row {
-	padding-left: 5%;
-	padding-right: 5%;
+	padding-left: 8%;
+	padding-right: 8%;
 }
 
 .container-fluid #courses .row {
@@ -207,8 +207,4 @@ hr {
 
 .container-fluid #school .row p, .container-fluid #courses .row p {
 	font-size: 16px;
-}
-
-.container-fluid #school .row #graddate {
-	text-align: center;
 }
