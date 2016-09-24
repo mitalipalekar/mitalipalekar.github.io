@@ -38,7 +38,7 @@ header .container, header .container-fluid {
 	height: 50px;
 }
 
-#index footer .container-fluid .row, #contact footer .container-fluid .row, #education footer .container-fluid .row {
+#index footer .container-fluid .row, #contact footer .container-fluid .row {
 	position: fixed;
 	bottom: 0px;
 }
@@ -131,7 +131,7 @@ body#index {
 	margin-right: auto;
 }
 
-#experience .page-header, #projects .page-header, #leadership .page-header, #outreach .page-header, #education .page-header {
+#experience .page-header, #projects .page-header, #leadership .page-header, #outreach .page-header, #education .page-header, #courses .page-header {
 	border: none;
 	color: white;
 	text-align: center;
@@ -186,3 +186,29 @@ hr {
 }
 
 /*education.html properties*/
+.container-fluid #school .row, .container-fluid #courses .row {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.container-fluid #courses .row {
+	padding-bottom: 20px;
+}
+
+.container-fluid #school .row h2, .container-fluid #school .row p, .container-fluid #courses .row h2, .container-fluid #courses .row p {
+	color: white;
+	text-align: justify;
+}
+
+.container-fluid #school .row h2, .container-fluid #courses .row h2 {
+	font-size: 24px;
+	margin-top: 0px;
+}
+
+.container-fluid #school .row p, .container-fluid #courses .row p {
+	font-size: 16px;
+}
+
+.container-fluid #school .row #graddate {
+	text-align: center;
+}
