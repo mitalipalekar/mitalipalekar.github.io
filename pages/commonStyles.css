@@ -69,7 +69,6 @@ footer a i:hover {
 	background-color: white;
 }
 
-
 /*index.html properties*/
 body#index {
 	background: url(../photos/profile.jpg) no-repeat center center fixed; 
@@ -130,7 +129,7 @@ body#index {
 	margin-right: auto;
 }
 
-#experience .page-header, #projects .page-header, #leadership .page-header, #outreach .page-header, #education .page-header, #courses .page-header {
+#about .page-header, #experience .page-header, #projects .page-header, #leadership .page-header, #outreach .page-header, #education .page-header, #courses .page-header {
 	border: none;
 	color: white;
 	text-align: center;
