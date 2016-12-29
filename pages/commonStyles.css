@@ -51,7 +51,8 @@ footer, footer .container-fluid .row {
 
 footer .container-fluid .row p {
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 #footer-text {
@@ -107,12 +108,17 @@ body#index {
 
 #about .container div > p {
 	color: white;/*rgb(45, 62, 218);*/
-	font-size: 16px;
+	font-size: 20px;
 	padding: 1%;
 	text-align: justify;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 #about .container div > p a {
+	color: #dae2ef;
+}
+
+#about .container div > p a:hover {
 	color: white;
 	text-decoration: underline;
 }
@@ -136,6 +142,8 @@ body#index {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: 'allura_regular', Serif;
+	font-size: 48px !important;
  }
 
 hr {
@@ -156,26 +164,29 @@ hr {
 
 #experience div > div > div > div > h2, #projects div > div > div > div > h2, 
 #leadership div > div > div > div > h2, #outreach div > div > div > div > h2 {
-	font-size: 20px;
+	font-size: 24px;
 	color: white;
 	text-align: center;
 	font-weight: bold;
 	margin: 3%;
+	font-family: 'Dancing Script', cursive;
 }
 
 #experience div > div > div > div > h3, #projects div > div > div > div > h3, 
 #leadership div > div > div > div > h3, #outreach div > div > div > div > h3 {
-	font-size: 18px;
+	font-size: 20px;
 	color: white;
 	text-align: center;
 	margin: 3%;
+	font-family: 'Dancing Script', cursive;
 }
 
 #experience div > div > div > div > p, #projects div > div > div > div > p, 
 #leadership div > div > div > div > p, #outreach div > div > div > div > p {
 	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
 	color: white;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 #experience div > div > div > div > a > img:hover, #projects div > div > div > div > a > img:hover, 
@@ -193,16 +204,32 @@ hr {
 	padding-bottom: 20px;
 }
 
-.container-fluid #school .row h2, .container-fluid #school .row p,.container-fluid #school .row h2 a, .container-fluid #courses .row h2, .container-fluid #courses .row p {
+.container-fluid #school .row h2, .container-fluid #school .row p, .container-fluid #school .row h2 a, .container-fluid #courses .row h2, .container-fluid #courses .row p {
 	color: white;
 	text-align: justify;
 }
 
 .container-fluid #school .row h2, .container-fluid #courses .row h2 {
-	font-size: 24px;
+	font-size: 36px;
 	margin-top: 0px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.container-fluid #school .row a, .container-fluid #courses .row a {
+	color: #dae2ef;
+}
+
+.container-fluid #school .row a:hover, .container-fluid #courses .row a:hover {
+	color: white;
 }
 
 .container-fluid #school .row p, .container-fluid #courses .row p {
-	font-size: 16px;
+	font-size: 20px;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+/**new fonts**/
+@font-face {
+	font-family: allura_regular;
+	src: url('../fonts/Allura-Regular.ttf');
 }
