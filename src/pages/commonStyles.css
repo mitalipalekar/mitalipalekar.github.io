@@ -38,6 +38,10 @@ header .container, header .container-fluid {
 	height: 50px;
 }
 
+#header-navbar {
+	background-color: #f2eee2
+}
+
 #index footer .container-fluid .row, #contact footer .container-fluid .row {
 	position: fixed;
 	bottom: 0px;
