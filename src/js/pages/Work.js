@@ -1,13 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
-import Header from "./header.js"
+// import Header from "../components/Header"
 
-class Work extends React.Component {
+export default class Work extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        
         <h1>HIII</h1>
       </div>
     );

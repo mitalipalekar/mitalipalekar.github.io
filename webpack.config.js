@@ -4,15 +4,7 @@ var webpack = require('webpack');
 module.exports = {
   context: __dirname + "/src",
   devtool: debug ? "inline-sourcemap" : null,
-  entry: {
-    home: './js/home',
-    work: './js/work',
-    projects: './js/projects',
-    leadership: './js/leadership',
-    press: './js/press',
-    index: './js/index',
-    vendors: ['react']
-  },
+  entry: './js/client.js',
   module: {
     loaders: [
       {
@@ -28,8 +20,7 @@ module.exports = {
   },
   output: {
     path: __dirname + "/src/",
-    filename: "[name].min.js",
-    chunkFilename: '[id].chunk.js'
+    filename: "client.min.js",
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),

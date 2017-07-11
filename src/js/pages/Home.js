@@ -1,13 +1,14 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import Router from "react-router-dom"
 
-import Header from "./header.js"
+// import Header from "../components/Header"
 
-class Home extends React.Component {
+export default class Home extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        
         <div id="profile-photo">
           <img src="./photos/profile-photo.jpg" alt="Mitali's Photo" className="img-circle"/>
         </div>
