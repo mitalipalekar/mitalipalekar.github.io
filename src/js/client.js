@@ -11,7 +11,7 @@ const app = document.getElementById('app');
 ReactDOM.render(
   <BrowserRouter>
     <Layout>
-    	<Route path="/" component={Home} />
+    	<Route path="/" component={Work} />
      	<Route path="work" component={Work} />
     </Layout>
   </BrowserRouter>, app);

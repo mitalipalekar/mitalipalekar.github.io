@@ -20,7 +20,7 @@ a {
   height: 325px;
 }
 
-#name {
+#name, #title {
   font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 50px;
@@ -48,4 +48,56 @@ a {
 
 #footer div {
   text-align: center;
+}
+
+/* WORK EXPERIENCE PAGE FONTS */
+#title {
+
+}
+
+#position {
+  width: 70%;
+  /*border: 3px solid red;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+#position img {
+  width: 30%;
+  /*border: 3px solid yellow;*/
+  float: left;
+}
+
+#position > div {
+  /*border: 1px solid blue;*/
+  padding-left: 2%;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  width: 70%;
+  float: right;
+}
+
+#position #position-title {
+  font-family: 'Pacifico', cursive;
+}
+
+#position p {
+  padding-left: 2%;
+  text-align: justify;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+  /*border: 2px solid green;*/
+  width: 70%;
+  float: right;
+}
+
+#position-description {
+  padding: 1%;
+}
+
+#position img {
+  border: 7px solid white;
+  border-radius: 20px;
 }
