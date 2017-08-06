@@ -1,5 +1,5 @@
 import React from "react"
-import {Link} from "react-router";
+import { Link } from "react-router-dom";
 
 export default class Header extends React.Component {
 	render() {
@@ -19,13 +19,8 @@ export default class Header extends React.Component {
               </div>
               <div className="collapse navbar-collapse navbar-inverse" id="bs-example-navbar-collapse-1">
                 <ul className="nav navbar-nav navbar-right">
-                  <li><Link to="/">HOME</Link></li>
-                  <li><Link to="/work">WORK</Link></li>
-                  <li><Link to="/projects">PROJECTS</Link></li>
-                  <li><Link to="/leadership">LEADERSHIP</Link></li>
-                  <li><a href="http://mitalipalekar.weebly.com" target="_blank">HONORS</a></li>
-                  <li><Link to="/press">PRESS</Link></li>
-                  <li><Link to="/resume">RESUME</Link></li>
+                  
+                  
                 </ul>
               </div>
             </div>

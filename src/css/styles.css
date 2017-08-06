@@ -55,7 +55,7 @@ a {
 
 }
 
-#position {
+#position, #project{
   width: 70%;
   /*border: 3px solid red;*/
   margin-left: auto;
@@ -64,13 +64,15 @@ a {
   overflow: hidden;
 }
 
-#position img {
+#position img, #project img {
   width: 30%;
   /*border: 3px solid yellow;*/
   float: left;
+  border: 7px solid white;
+  border-radius: 20px;
 }
 
-#position > div {
+#position > div, #project div {
   /*border: 1px solid blue;*/
   padding-left: 2%;
   font-family: 'Cormorant Garamond', serif;
@@ -79,11 +81,11 @@ a {
   float: right;
 }
 
-#position #position-title {
+#position #position-title, #project #project-title {
   font-family: 'Pacifico', cursive;
 }
 
-#position p {
+#position p, #project p {
   padding-left: 2%;
   text-align: justify;
   font-family: 'Cormorant Garamond', serif;
@@ -93,11 +95,6 @@ a {
   float: right;
 }
 
-#position-description {
+#position-description, #project-description {
   padding: 1%;
-}
-
-#position img {
-  border: 7px solid white;
-  border-radius: 20px;
 }

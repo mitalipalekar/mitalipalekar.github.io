@@ -2,7 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import Router from "react-router-dom"
 
-// import Header from "../components/Header"
+import Header from "../components/Header"
 
 export default class Home extends React.Component {
   render() {

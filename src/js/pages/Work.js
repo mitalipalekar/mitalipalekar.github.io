@@ -17,12 +17,20 @@ export default class Work extends React.Component {
           technologies: "Technologies: Golang, Mesos, Aurora, Uber’s Internal Tooling (service store, infrastructure store, indexing service)"
         },
         {
-          photo: './photos/placeholder.jpg',
+          photo: './photos/seclab.png',
           photoAlt: "Research Assistant at UW CSE Security & Privacy Lab",
           title: "Undergraduate Research Assistant",
           company: "UW CSE Security and Privacy Lab",
           description: "Developing and maintaining Confidante, an encrypted email client using Keybase for automatic key management; implemented new features such as encrypted drafts, the user interface to allow for interactions with email threads when composing an email and optional private key signing",
           technologies: "Technologies: JavaScript, React, Flux, Node.js"
+        },
+        {
+          photo: './photos/daily.jpg',
+          photoAlt: "Web Editor at Daily",
+          title: "Web Editor",
+          company: "The Daily - UW Newspaper",
+          description: "Responsible for managing our online presence - more details to come!",
+          technologies: "Technologies: TBD"
         },
         {
           photo: './photos/NASA.jpg',
@@ -33,7 +41,7 @@ export default class Work extends React.Component {
           technologies: "Technologies: Unity, C#, HoloToolkit API, Node.js, Git"
         },
         {
-          photo: './photos/placeholder.jpg',
+          photo: './photos/gdtc.jpg',
           photoAlt: "Research Assistant at Georgian Digital Text Collective",
           title: "Undergraduate Research Intern",
           company: "UW Georgian Digital Text Collective",
@@ -47,9 +55,9 @@ export default class Work extends React.Component {
   render() {
     
 
-    var positionsHTML = this.state.positions.map(function(position) {
+    var positionsHTML = this.state.positions.map(function(position, i) {
       return (
-        <div id="position">
+        <div id="position" key={i}>
           <img src={position.photo} alt={position.photoAlt}/>
           <div id="position-title">{position.title}</div>
           <div><b>{position.company}</b></div>
