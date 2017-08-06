@@ -13,7 +13,7 @@ const app = document.getElementById('app');
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
-      <Route path='/' component={Home}/>
+      <Route exact path='/' component={Home}/>
       <Route path='/work' component={Work}/>
       <Route path='/projects' component={Projects}/>
       <Route path='/leadership' component={Leadership}/>
