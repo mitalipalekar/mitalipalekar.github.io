@@ -1,22 +1,12 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import React from 'react'
+import { render } from 'react-dom'
+import { BrowserRouter } from 'react-router-dom'
 
-import Home from "./pages/Home"
-import Work from "./pages/Work"
-import Projects from "./pages/Projects"
-import Leadership from "./pages/Leadership"
-import Press from "./pages/Press"
+import App from './pages/App'
 
 const app = document.getElementById('app');
 
-ReactDOM.render(
+render(
   <BrowserRouter>
-    <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/work' component={Work}/>
-      <Route path='/projects' component={Projects}/>
-      <Route path='/leadership' component={Leadership}/>
-      <Route path='/press' component={Press}/>
-    </Switch>
+    <App/>
   </BrowserRouter>, app);
