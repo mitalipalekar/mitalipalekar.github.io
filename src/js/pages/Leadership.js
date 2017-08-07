@@ -7,7 +7,7 @@ export default class Leadership extends React.Component {
     this.state = {
       positions: [
         {
-          photo: './photos/placeholder.jpg',
+          photo: './photos/swe.jpg',
           photoAlt: 'UW SWE',
           title: 'President',
           company: 'UW Society of Women Engineers',

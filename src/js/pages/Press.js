@@ -15,10 +15,10 @@ export default class Press extends React.Component {
           email, linkedin or twitter (in decreasing order of preference)!
 	      </p>
 	      <ul>
-	      	<li><a href="https://news.cs.washington.edu/2017/01/27/how-undergraduate-mitali-palekar-developed-a-passion-for-programming-and-diversity-at-uw-cse/">UW CSE Student Spotlight - How programming and diversity is important to me</a></li>
-	      	<li><a href="http://q13fox.com/2017/05/12/with-unique-scholarship-program-seattle-company-helps-more-uw-women-break-into-tech-field/">TUNE House Scholar - How TUNE House is advocating for diversity in tech</a></li>
-	      	<li><a href=" https://www.facebook.com/uwswe/photos/a.548119975288589.1073741828.548103065290280/763141937119724/?type=3&theater">UW SWE Member Feature - Why SWE has been transformational to my Husky Experience</a></li>
-	      	<li><a href="http://www.dailyuw.com/search/?sd=desc&l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=mitali">UW Daily Articles - a collection of the articles that I have written for the UW Daily</a></li>
+	      	<li><a href="https://news.cs.washington.edu/2017/01/27/how-undergraduate-mitali-palekar-developed-a-passion-for-programming-and-diversity-at-uw-cse/" target='_blank'>UW CSE Student Spotlight - How programming and diversity is important to me</a></li>
+	      	<li><a href="http://q13fox.com/2017/05/12/with-unique-scholarship-program-seattle-company-helps-more-uw-women-break-into-tech-field/" target='_blank'>TUNE House Scholar - How TUNE House is advocating for diversity in tech</a></li>
+	      	<li><a href=" https://www.facebook.com/uwswe/photos/a.548119975288589.1073741828.548103065290280/763141937119724/?type=3&theater" target='_blank'>UW SWE Member Feature - Why SWE has been transformational to my Husky Experience</a></li>
+	      	<li><a href="http://www.dailyuw.com/search/?sd=desc&l=25&sort=relevance&f=html&t=article%2Cvideo%2Cyoutube%2Ccollection&app=editorial&nsa=eedition&q=mitali" target='_blank'>UW Daily Articles - a collection of the articles that I have written for the UW Daily</a></li>
 	      </ul>
       </div>
     );

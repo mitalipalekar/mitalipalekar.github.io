@@ -15,7 +15,7 @@ export default class Projects extends React.Component {
           technologies: 'Technologies: XXX'
         },*/
         {
-          photo: './photos/placeholder.jpg',
+          photo: './photos/chessbot.jpg',
           title: 'ChessIt',
           summary: 'Chess Bot',
           description: 'Implemented the back-end of this application through searching algorithms such as Minimax, Alpha-Beta Pruning and Jamboree along with heuristics to improve move generation time such as iterative deepening and killer move ordering',
@@ -29,7 +29,7 @@ export default class Projects extends React.Component {
           technologies: 'Technologies: Clarifai API, JavaScrip,t Node.JS, HTML, CSS'
         },
         {
-          photo: './photos/placeholder.jpg',
+          photo: './photos/messagepredict.jpg',
           photoAlt: 'XXX',
           title: 'MessagePredict',
           summary: 'Facebook messenger predictor',
@@ -37,7 +37,7 @@ export default class Projects extends React.Component {
           technologies: 'Technologies: Java'
         },
         {
-          photo: './photos/placeholder.jpg',
+          photo: './photos/spam.png',
           photoAlt: 'XXX',
           title: 'Spam|Ham',
           summary: 'Spam email classification system',
@@ -53,7 +53,7 @@ export default class Projects extends React.Component {
           technologies: 'Technologies: C, C++'
         },
         {
-          photo: './photos/placeholder.jpg',
+          photo: './photos/campusmaps.png',
           photoAlt: 'XXX',
           title: 'CampusMaps',
           summary: 'Website to showcase my own personal projects and experience',
