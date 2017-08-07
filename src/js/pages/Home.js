@@ -20,22 +20,6 @@ export default class Home extends React.Component {
           I am interested in the fields of machine learning, natural language processing and
           computer security.  In my free time, I love dancing, travelling, and eating guacamole.
         </div>
-        <div id='footer'>
-          <div>
-            <a href='mailto:mitali97@cs.washington.edu'>
-              <i className='fa fa-envelope fa-3x footer-icons' aria-hidden='true' />
-            </a>
-            <a href="https://www.linkedin.com/in/mitalipalekar" target='_blank'>
-              <i className='fa fa-linkedin fa-3x footer-icons' aria-hidden='true' />
-            </a>
-            <a href="https://github.com/mitalipalekar" target='_blank'>
-              <i className='fa fa-github fa-3x footer-icons' aria-hidden='true' />
-            </a>
-            <a href="https://www.twitter.com/mitzzP" target='_blank'>
-              <i className='fa fa-twitter fa-3x footer-icons' aria-hidden='true' />
-            </a>
-          </div>
-        </div>
       </div>
     );
   }

@@ -65,7 +65,6 @@ export default class Work extends React.Component {
 
       return (
         <div>
-
           <div id='title'>
             <span>WORK EXPERIENCE</span>
           </div>

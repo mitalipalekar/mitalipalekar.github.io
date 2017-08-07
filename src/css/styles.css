@@ -28,7 +28,7 @@ a {
   margin: 1% 0px;
 }
 
-#about {
+#about, #press > p {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -48,6 +48,7 @@ a {
 
 #footer div {
   text-align: center;
+  margin-bottom: 1%;
 }
 
 /* WORK EXPERIENCE PAGE FONTS */
@@ -55,7 +56,7 @@ a {
   margin-top: 50px;
 }
 
-#position, #project{
+#position, #project {
   width: 70%;
   /*border: 3px solid red;*/
   margin-left: auto;
@@ -97,4 +98,16 @@ a {
 
 #position-description, #project-description {
   padding: 1%;
+}
+
+#press > ul {
+  width: 60%;
+  margin: 3% auto;
+}
+
+#press li {
+  margin-bottom: 1%;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
 }

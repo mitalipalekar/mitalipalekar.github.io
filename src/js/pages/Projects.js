@@ -87,7 +87,6 @@ export default class Projects extends React.Component {
 
       return (
         <div>
-
           <div id='title'>
             <span>PROJECTS</span>
           </div>

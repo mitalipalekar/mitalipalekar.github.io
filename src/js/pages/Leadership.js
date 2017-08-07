@@ -74,7 +74,6 @@ export default class Leadership extends React.Component {
 
       return (
         <div>
-
           <div id='title'>
             <span>LEADERSHIP</span>
           </div>
