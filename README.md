@@ -1,12 +1,13 @@
-# Personal Website - Mitali Palekar
-**University of Washington, Computer Science 19, Interdisciplinary Honors**
+# My Personal Website 
 
-*Contains a brief synopsis of myself, educational background (coming soon), personal projects, involvement activities, links to my Honors portfolio and resume as well as contact information*
+**B.S. Computer Science, Interdisciplinary Honors, University of Washington 19**
 
-URL:  [students.washington.edu/mitali97](http://students.washington.edu/mitali97/) OR [mitalipalekar.github.io](https://mitalipalekar.github.io/)
+*Contains a brief summary as well as a list of my work experience, projects and leadership engagements*
 
-This repo is open source for reference only, **do NOT copy or clone**.
+[mitalipalekar.github.io](https://mitalipalekar.github.io/) / [students.washington.edu/mitali97](http://students.washington.edu/mitali97/)
 
-***All code in this repository is* `Copyright, Mitali Palekar`**
+This repo is open source for reference only, **do NOT copy, fork or clone**.
+
+**All code in this repository is `Copyright, Mitali Palekar`**
 
 
