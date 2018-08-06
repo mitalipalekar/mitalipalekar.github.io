@@ -1,10 +1,11 @@
 {
-  "main.js": "static/js/main.9baf3791.js",
-  "main.js.map": "static/js/main.9baf3791.js.map",
+  "main.js": "static/js/main.5fb13348.js",
+  "main.js.map": "static/js/main.5fb13348.js.map",
   "static/media/NASA.jpg": "static/media/NASA.adb899af.jpg",
   "static/media/campusmaps.png": "static/media/campusmaps.efff0840.png",
   "static/media/chessbot.jpg": "static/media/chessbot.5a2f133a.jpg",
   "static/media/coe.png": "static/media/coe.ceb0234e.png",
+  "static/media/facebook.png": "static/media/facebook.aeef1860.png",
   "static/media/gdtc.jpg": "static/media/gdtc.c5436cc6.jpg",
   "static/media/htmlcss.jpg": "static/media/htmlcss.4d6744f8.jpg",
   "static/media/instacap.jpg": "static/media/instacap.605d35ff.jpg",
@@ -12,8 +13,10 @@
   "static/media/peereducator.jpg": "static/media/peereducator.f0591520.jpg",
   "static/media/placeholder.jpg": "static/media/placeholder.7f220190.jpg",
   "static/media/profile-photo.jpg": "static/media/profile-photo.594a42b7.jpg",
-  "static/media/resume.pdf": "static/media/resume.aff853b3.pdf",
+  "static/media/resume.pdf": "static/media/resume.8ac8a00a.pdf",
   "static/media/seclab.png": "static/media/seclab.4ce396b2.png",
   "static/media/spam.png": "static/media/spam.0b68ecb1.png",
-  "static/media/swe.jpg": "static/media/swe.490d708d.jpg"
+  "static/media/stripe.jpg": "static/media/stripe.88618fc5.jpg",
+  "static/media/swe.jpg": "static/media/swe.490d708d.jpg",
+  "static/media/uber.jpg": "static/media/uber.317a2ae0.jpg"
 }
