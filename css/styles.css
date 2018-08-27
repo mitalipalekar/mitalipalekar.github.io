@@ -55,10 +55,9 @@ a {
   margin-bottom: 1%;
 }
 
-/* WORK EXPERIENCE PAGE FONTS */
+/* WORK EXPERIENCE STYLING */
 #position, #project {
   width: 70%;
-  /*border: 3px solid red;*/
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
@@ -66,16 +65,14 @@ a {
 }
 
 #position img, #project img {
-  width: 30%;
-  /*border: 3px solid yellow;*/
+  width: 25%;
   float: left;
   border: 7px solid white;
   border-radius: 20px;
 }
 
 #position > div, #project div {
-  /*border: 1px solid blue;*/
-  padding-left: 2%;
+  padding-left: 1%;
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
   width: 70%;
@@ -87,10 +84,9 @@ a {
 }
 
 #position p, #project p {
-  padding-left: 2%;
+  padding-left: 1%;
   font-family: 'Cormorant Garamond', serif;
   font-size: 18px;
-  /*border: 2px solid green;*/
   width: 70%;
   float: right;
 }
@@ -99,6 +95,7 @@ a {
   padding: 1%;
 }
 
+/* PRESS STYLING */
 #press > ul {
   width: 60%;
   margin: 3% auto;
@@ -108,5 +105,4 @@ a {
   margin-bottom: 1%;
   font-family: 'Cormorant Garamond', serif;
   font-size: 20px;
-}
 }
