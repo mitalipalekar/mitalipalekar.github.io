@@ -23,6 +23,23 @@ a:hover, a:active {
   color: #84596B;
 }
 
+/* FOOTER STYLING */
+#footer .footer-icons {
+  color: black;
+  margin-right: 30px;
+  margin-top: 1%;
+}
+
+#footer .fa-envelope {
+  margin-left: 5%;
+}
+
+#footer div {
+  text-align: center;
+  margin-bottom: 1%;
+  margin-top: 2%;
+}
+
 /* HOME PAGE STYLING */
 #profile-photo img {
   border: 5px solid #84596B;
@@ -40,10 +57,6 @@ a:hover, a:active {
   margin: 2%;
 }
 
-#title {
-  padding-top: 4%;
-}
-
 #about, #press > p {
   width: 83%;
   margin: auto;
@@ -53,62 +66,47 @@ a:hover, a:active {
   color: #84596B;
 }
 
-#footer .footer-icons {
-  color: black;
-  margin-right: 30px;
-  margin-top: 1%;
-}
-
-#footer .fa-envelope {
-  margin-left: 5%;
-}
-
-#footer div {
-  text-align: center;
-  margin-bottom: 1%;
-}
-
 /* WORK EXPERIENCE STYLING */
-#position, #project {
-  width: 70%;
+#position {
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
   overflow: hidden;
 }
 
-#position img, #project img {
+#position img {
   width: 25%;
   float: left;
-  border: 7px solid white;
+  border: solid 3px #84596B;
   border-radius: 20px;
 }
 
-#position > div, #project div {
-  padding-left: 1%;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+#position > div, #position p {
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 16px;
+  color: #84596B;
   width: 70%;
   float: right;
 }
 
-#position #position-title, #project #project-title {
-  font-family: 'Cormorant Garamond', serif;
+#position #position-title {
+  font-family: 'Fira Sans', Sans-Serif;
 }
 
-#position p, #project p {
-  padding-left: 1%;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 18px;
-  width: 70%;
-  float: right;
+#position p {
+  font-size: 14px;
 }
 
-#position-description, #project-description {
-  padding: 1%;
+#position-description {
+  padding-top: 1%;
 }
 
 /* PRESS STYLING */
+#press p {
+  font-size: 16px;
+}
+
 #press > ul {
   width: 60%;
   margin: 3% auto;
@@ -116,6 +114,6 @@ a:hover, a:active {
 
 #press li {
   margin-bottom: 1%;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 14px;
 }

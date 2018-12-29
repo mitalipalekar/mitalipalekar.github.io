@@ -6,69 +6,61 @@ export default class Work extends React.Component {
     this.state = {
       positions: [
         {
-          photo: './photos/facebook.png',
+          photo: './photos/facebook.jpg',
           photoAlt: 'Intern at Facebook',
           title: 'Software Engineering Intern',
-          company: 'Facebook App Monetization',
-          description: 'Project TBD (Fall 2019)',
-          technologies: ''
+          company: 'Facebook, App Monetization',
+          description: 'Designed and implemented an internal tool to pause & unpause Facebook ads at scale which doubled the capacity of ads that could be successfully paused & unpaused in a single job and improved performance by over 700%.',
+          technologies: 'Hack, XHP, JavaScript, Hive, Presto, Facebook Distributed Job Scheduler'
         },
         {
           photo: './photos/linkedin.jpg',
           photoAlt: 'Intern at LinkedIn',
           title: 'Software Engineering Intern',
-          company: 'LinkedIn Learning (Summer 2018)',
+          company: 'LinkedIn Learning',
           description: 'Architected and implemented a data-driven approach to access control for LinkedIn Learning, improving access control accuracy, observability, and scalability.',
-          technologies: 'Technologies: Java, Parseq, Pegasus Data Schemas, Rest.Li, XACML Access Control'
+          technologies: 'Java, Parseq, Pegasus Data Schemas, Rest.Li, XACML Access Control'
         },
         {
           photo: './photos/stripe.jpg',
           photoAlt: 'Intern at Stripe',
           title: 'Software Engineering Intern',
-          company: 'Stripe, Search and Sigma (Spring 2018)',
+          company: 'Stripe, Search and Sigma',
           description: 'Developed pipeline to automate creation of elastic search indices for large merchants, enabling searches for large merchants that would previously time out due to un-optimized data stores.',
-          technologies: 'Technologies: Ruby, ElasticSearch'
+          technologies: 'Ruby, ElasticSearch'
         },
         {
           photo: './photos/uber.jpeg',
           photoAlt: 'Intern at Uber',
-          title: 'Software Engineering Intern (Site Reliability)',
-          company: 'Uber, Platform Infrastructure  (Summer 2017)',
+          title: 'Software Engineering Intern',
+          company: 'Uber, Platform Infrastructure',
           description: 'Architected and implemented in-production rack distribution analysis support allowing a rack aware distribution of service instances and preventing services from violating their service-level agreements, improving service reliability.',
-          technologies: 'Technologies: Golang, Mesos, Aurora, Uber’s Internal Tooling (service store, infrastructure store, indexing service)'
+          technologies: 'Golang, Mesos, Aurora, Uber’s Internal Tooling (service store, infrastructure store, indexing service)'
         },
         {
           photo: './photos/seclab.png',
           photoAlt: 'Research Assistant at UW CSE Security & Privacy Lab',
           title: 'Undergraduate Research Assistant',
           company: 'UW CSE Security and Privacy Lab',
-          description: 'Developing and maintaining Confidante, an encrypted email client using Keybase for automatic key management; implemented new features such as encrypted drafts, the user interface to allow for interactions with email threads when composing an email and optional private key signing',
-          technologies: 'Technologies: JavaScript, React, Flux, Node.js'
+          description: 'Broadly researched ways to improve and build tools to address end-user security & privacy needs',
+          technologies: 'JavaScript, React, Flux, Node.js'
+        },
+        {
+          photo: './photos/NASA.jpg',
+          photoAlt: 'Intern at NASA',
+          title: 'Software Engineering Intern',
+          company: 'NASA Ames, Human Systems Lab',
+          description: 'Designed and developed a path-finding tool and in-procedure execution guide using the Microsoft HoloLens for safety procedures and experiment conduction on the International Space Station, possibly replacing the current manual procedure execution process',
+          technologies: 'Unity, C#, HoloToolkit, Node.js'
         },
         {
           photo: './photos/daily.jpg',
           photoAlt: 'Web Editor at Daily',
           title: 'Web Editor',
           company: 'The Daily - UW Newspaper',
-          description: 'Responsible for managing our online presence - more details to come!',
-          technologies: 'Technologies: TBD'
+          description: 'Responsible for managing the online presence of the UW student newspaper',
+          technologies: 'HTML, CSS, JavaScript, OpenCMS'
         },
-        {
-          photo: './photos/NASA.jpg',
-          photoAlt: 'Intern at NASA',
-          title: 'Software Engineering Intern',
-          company: 'NASA Ames, Human Systems Lab  (Summer 2016)',
-          description: 'Designed and developed a path-finding tool and in-procedure execution guide using the Microsoft HoloLens for safety procedures and experiment conduction on the International Space Station, possibly replacing the current manual procedure execution process',
-          technologies: 'Technologies: Unity, C#, HoloToolkit API, Node.js, Git'
-        },
-        {
-          photo: './photos/gdtc.jpg',
-          photoAlt: 'Research Assistant at Georgian Digital Text Collective',
-          title: 'Undergraduate Research Intern',
-          company: 'UW Georgian Digital Text Collective',
-          description: 'Developed PHP scripts to convert Georgian to XML and JavaScript scripts to transpose XML to XHTML; proposed UI design changes to the front-end and managed the social media for the research group',
-          technologies: 'Technologies: PHP, Javascript, Ajax, HTML, CSS'
-        }
       ]
     };
   }
@@ -81,7 +73,7 @@ export default class Work extends React.Component {
           <div id='position-title'><b>{position.title}</b></div>
           <div><em>{position.company}</em></div>
           <p id='position-description'>{position.description}</p>
-          <p><em>{position.technologies}</em></p>
+          <p><b><em>Technologies: {position.technologies}</em></b></p>
         </div>
       );
     });
@@ -89,7 +81,7 @@ export default class Work extends React.Component {
       return (
         <div>
           <div id='title'>
-            <span>WORK EXPERIENCE</span>
+            <span><b>WORK EXPERIENCE</b></span>
           </div>
           {positionsHTML}
         </div>

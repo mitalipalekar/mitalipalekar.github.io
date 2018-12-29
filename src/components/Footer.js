@@ -11,11 +11,11 @@ export default class Footer extends React.Component {
           <a href="https://www.linkedin.com/in/mitalipalekar" target='_blank' rel="noopener noreferrer">
             <i className='fa fa-linkedin fa-3x footer-icons' aria-hidden='true' />
           </a>
-          <a href="https://github.com/mitalipalekar" target='_blank' rel="noopener noreferrer">
-            <i className='fa fa-github fa-3x footer-icons' aria-hidden='true' />
-          </a>
           <a href="https://www.twitter.com/mitalipalekar" target='_blank' rel="noopener noreferrer">
             <i className='fa fa-twitter fa-3x footer-icons' aria-hidden='true' />
+          </a>
+          <a href="https://github.com/mitalipalekar" target='_blank' rel="noopener noreferrer">
+            <i className='fa fa-github fa-3x footer-icons' aria-hidden='true' />
           </a>
         </div>
       </div>

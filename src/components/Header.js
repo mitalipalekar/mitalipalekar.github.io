@@ -17,11 +17,11 @@ export default class Header extends React.Component {
             <NavItem eventKey={1} href="/work">
               <span className="navItem">WORK</span>
             </NavItem>
-            <NavItem eventKey={2} href="/projects">
-              <span className="navItem">PROJECTS</span>
-            </NavItem>
             <NavItem eventKey={3} href="/leadership">
               <span className="navItem">LEADERSHIP</span>
+            </NavItem>
+            <NavItem eventKey={4} href="/blog">
+              <span className="navItem">BLOG</span>
             </NavItem>
             <NavItem eventKey={4} href="/press">
               <span className="navItem">PRESS</span>
