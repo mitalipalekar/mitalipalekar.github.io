@@ -13,10 +13,6 @@ a:hover, a:active {
   border: white;
 }
 
-.container {
-  padding: 1%;
-}
-
 .navItem, #navItem {
   font-family: 'Fira Sans', Sans-Serif;
   font-size: 18px;
@@ -36,8 +32,13 @@ a:hover, a:active {
 
 #footer div {
   text-align: center;
-  margin-bottom: 1%;
   margin-top: 2%;
+}
+
+#created-by {
+  font-family: 'Fira Sans', Sans-Serif;
+  color: #84596B;
+  margin-bottom: 2%;
 }
 
 /* HOME PAGE STYLING */

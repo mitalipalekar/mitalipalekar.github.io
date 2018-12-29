@@ -18,6 +18,9 @@ export default class Footer extends React.Component {
             <i className='fa fa-github fa-3x footer-icons' aria-hidden='true' />
           </a>
         </div>
+        <div id="created-by">
+          <span><em>Created by Mitali Palekar</em></span>
+        </div>
       </div>
     );
   }
