@@ -71,7 +71,7 @@ export default class Work extends React.Component {
         <div id='position' key={i}>
           <img src={require(`${position.photo}`)} alt={position.photoAlt}/>
           <div id='position-title'><b>{position.title}</b></div>
-          <div><em>{position.company}</em></div>
+          <div id='position-company'><em>{position.company}</em></div>
           <p id='position-description'>{position.description}</p>
           <p><b><em>Technologies: {position.technologies}</em></b></p>
         </div>

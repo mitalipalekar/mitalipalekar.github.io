@@ -43,6 +43,7 @@ a:hover, a:active {
 #created-by {
   font-family: 'Fira Sans', Sans-Serif;
   color: #84596B;
+  font-size: 15px;
   margin-bottom: 2%;
 }
 
@@ -68,7 +69,7 @@ a:hover, a:active {
   margin: auto;
   text-align: center;
   font-family: 'Fira Sans', Sans-Serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #84596B;
 }
 
@@ -90,18 +91,27 @@ a:hover, a:active {
 
 #position > div, #position p {
   font-family: 'Fira Sans', Sans-Serif;
-  font-size: 16px;
-  color: #84596B;
   width: 70%;
   float: right;
 }
 
-#position #position-title {
-  font-family: 'Fira Sans', Sans-Serif;
+#position {
+  font-size: 15px;
+  color: #84596B;
+}
+
+#position-title {
+  font-size: 18px;
+  color: #3D3242;
+}
+
+#position-company {
+  font-size: 16px;
+  color: #B58AA5;
 }
 
 #position p {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 #position-description {
