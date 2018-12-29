@@ -6,6 +6,7 @@ import Work from './Work'
 import Leadership from './Leadership'
 import Blog from './Blog'
 import Press from './Press'
+import reflections_on_2018_looking_ahead from './blog/reflections_on_2018_looking_ahead'
 
 export default class Main extends React.Component {
   render() {
@@ -15,8 +16,9 @@ export default class Main extends React.Component {
   	      <Route exact path='/' component={Home}/>
   	      <Route path='/work' component={Work}/>
   	      <Route path='/leadership' component={Leadership}/>
-          <Route exact path='/blog' component={Blog}/>
+          <Route path='/blog' component={Blog}/>
   	      <Route path='/press' component={Press}/>
+          <Route path='/reflections_on_2018_looking_ahead' component={reflections_on_2018_looking_ahead}/>
   	    </Switch>
       </div>
     );

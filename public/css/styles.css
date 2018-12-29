@@ -57,7 +57,7 @@ a:hover, a:active {
   margin: 2%;
 }
 
-#about, #press > p {
+#about, #press > p, #blog > p {
   width: 83%;
   margin: auto;
   text-align: center;
@@ -66,7 +66,7 @@ a:hover, a:active {
   color: #84596B;
 }
 
-/* WORK EXPERIENCE STYLING */
+/* WORK/LEADERSHIP EXPERIENCE STYLING */
 #position {
   width: 80%;
   margin-left: auto;
@@ -102,18 +102,31 @@ a:hover, a:active {
   padding-top: 1%;
 }
 
-/* PRESS STYLING */
-#press p {
+/* PRESS/BLOG STYLING */
+#press p, #blog p {
   font-size: 16px;
 }
 
-#press > ul {
+#press > ul, #blog > ul {
   width: 60%;
   margin: 3% auto;
 }
 
-#press li {
+#press li, #blog li {
   margin-bottom: 1%;
   font-family: 'Fira Sans', Sans-Serif;
   font-size: 14px;
+}
+
+/* BLOG STYLING */
+
+#blog-back-button span {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#blog-back-button {
+  font-size: 18px;
 }

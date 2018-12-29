@@ -8,8 +8,8 @@ export default class Press extends React.Component {
           <span><b>PRESS</b></span>
         </div>
         <p>
-          I have been featured in a few articles as well as written for a few news sources as a writer & reporter. 
-          Feel free to reach out on Twitter or LinkedIn, I don't byte!
+          I have been featured in a few articles as well as written for a few news sources as a writer & columnist. 
+          Feel free to reach out on Twitter or LinkedIn, I don't byte (ha)!
         </p>
         <ul>
           <li><a href='https://news.cs.washington.edu/2017/01/27/how-undergraduate-mitali-palekar-developed-a-passion-for-programming-and-diversity-at-uw-cse/' target='_blank' rel='noopener noreferrer'>UW CSE Student Spotlight - Why programming and diversity is important to me</a></li>
