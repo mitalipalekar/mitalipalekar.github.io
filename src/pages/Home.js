@@ -5,7 +5,7 @@ export default class Home extends React.Component {
     return (
       <div>
         <div id='profile-photo'>
-          <img src={require("./photos/profile-photo.jpg")} alt="mitali" className="img-circle"/>
+          <img src={require("./photos/profile-photo.jpeg")} alt="mitali" className="img-circle"/>
         </div>
         <div id='name'>
           <span><b>MITALI PALEKAR</b></span>

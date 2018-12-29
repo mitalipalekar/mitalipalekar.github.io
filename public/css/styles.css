@@ -17,10 +17,10 @@ a:hover, a:active {
   padding: 1%;
 }
 
-.navItem {
+.navItem, #navItem {
   font-family: 'Fira Sans', Sans-Serif;
   font-size: 18px;
-  color: #84596B;
+  color: #84596B !important;
 }
 
 /* FOOTER STYLING */
@@ -46,7 +46,7 @@ a:hover, a:active {
   display: block;
   margin: auto;
   width: 315px;
-  height: 335px;
+  height: 390px;
 }
 
 #name, #title {
@@ -115,7 +115,7 @@ a:hover, a:active {
 #press li, #blog li {
   margin-bottom: 1%;
   font-family: 'Fira Sans', Sans-Serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* BLOG STYLING */

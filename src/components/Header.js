@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import { Navbar, Nav, NavItem } from 'react-bootstrap'
+import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 
 export default class Header extends React.Component {
 	render() {
@@ -26,12 +26,16 @@ export default class Header extends React.Component {
             <NavItem eventKey={4} href="/press">
               <span className="navItem">PRESS</span>
             </NavItem>
-            <NavItem eventKey={5} href="http://mitalipalekar.weebly.com" target="_blank" rel="noopener noreferrer">
-              <span className="navItem">HONORS</span>
-            </NavItem>
-            <NavItem eventKey={6} href="https://hlcmitalipalekar.weebly.com/" target="_blank" rel="noopener noreferrer">
-              <span className="navItem">HLC</span>
-            </NavItem>
+            
+            <NavDropdown eventKey={5} title="UW PORTFOLIOS" id="navItem">
+              <MenuItem eventKey={5.1} href="http://mitalipalekar.weebly.com" target="_blank" rel="noopener noreferrer">
+                <span className="navItem">HONORS</span>
+              </MenuItem>
+              <MenuItem eventKey={5.2} href="https://hlcmitalipalekar.weebly.com/" target="_blank" rel="noopener noreferrer">
+                <span className="navItem">HUSKY LEADERSHIP CERTIFICATE</span>
+              </MenuItem>
+            </NavDropdown>
+
             <NavItem eventKey={7} href={require("../resume.pdf")} target="_blank" rel="noopener noreferrer">
               <span className="navItem">RESUME</span>
             </NavItem>
