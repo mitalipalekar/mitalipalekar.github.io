@@ -109,7 +109,7 @@ a:hover, a:active {
 }
 
 /* PRESS/BLOG STYLING */
-#press p, #content p {
+#press p, #blog p {
   font-size: 16px;
 }
 
@@ -147,14 +147,14 @@ a:hover, a:active {
 
 #content p {
   font-family: 'Fira Sans', Sans-Serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #84596B;
   padding-bottom: 1%;
 }
 
 #content li {
   font-family: 'Fira Sans', Sans-Serif;
-  font-size: 14px;
+  font-size: 15px;
   color: #84596B;
 }
 
