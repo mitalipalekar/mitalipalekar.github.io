@@ -109,7 +109,7 @@ a:hover, a:active {
 }
 
 /* PRESS/BLOG STYLING */
-#press p, #blog p {
+#press p, #content p {
   font-size: 16px;
 }
 
@@ -125,6 +125,32 @@ a:hover, a:active {
 }
 
 /* BLOG STYLING */
+#content {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#subtitle-1 {
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 20px;
+  color: #3D3242;
+  padding-bottom: 1%;
+}
+
+#subtitle-2 {
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 18px;
+  color: #B58AA5;
+  padding-bottom: 1%;
+}
+
+#content p {
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 16px;
+  color: #84596B;
+  padding-bottom: 1%;
+}
 
 #blog-back-button span {
   display: block;
@@ -134,5 +160,10 @@ a:hover, a:active {
 }
 
 #blog-back-button {
-  font-size: 18px;
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 20px;
+}
+
+#blog-back-button a {
+  color: #3D3242;
 }
