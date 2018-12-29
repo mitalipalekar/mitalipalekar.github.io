@@ -7,7 +7,7 @@ export default class Header extends React.Component {
       <Navbar collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/"><span className="navItem">MITALI PALEKAR</span></a>
+            <a href="/"><img src={require('./../pages/photos/favicon.png')} alt="dummy" id="logo"/></a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>

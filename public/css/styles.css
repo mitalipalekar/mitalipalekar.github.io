@@ -19,6 +19,11 @@ a:hover, a:active {
   color: #84596B !important;
 }
 
+#logo {
+  width: 35px;
+  padding-bottom: 15px;
+}
+
 /* FOOTER STYLING */
 #footer .footer-icons {
   color: black;
