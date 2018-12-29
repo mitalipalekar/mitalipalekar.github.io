@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap'
 
 export default class Header extends React.Component {
@@ -26,7 +25,7 @@ export default class Header extends React.Component {
             <NavItem eventKey={4} href="/press">
               <span className="navItem">PRESS</span>
             </NavItem>
-            
+
             <NavDropdown eventKey={5} title="UW PORTFOLIOS" id="navItem">
               <MenuItem eventKey={5.1} href="http://mitalipalekar.weebly.com" target="_blank" rel="noopener noreferrer">
                 <span className="navItem">HONORS</span>
