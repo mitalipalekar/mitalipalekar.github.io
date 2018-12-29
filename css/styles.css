@@ -1,45 +1,29 @@
-body {
-  width: 100%;
-  height: 100%;
-  background-color: #d5d5d5;
-}
-
 a {
-  color: #6d7993
+  color: #B58AA5
 }
 
-#profile-photo {
-  margin-top: 6%;
+a:hover, a:active {
+  color: #CECFCE;
+  text-decoration: none;
 }
 
-#profile-photo img {
-  border: 5px solid black;
-  display: block;
-  margin: auto;
-  width: 315px;
-  height: 335px;
+/* HEADER STYLING */
+.navbar, .navbar-default {
+  background: white;
+  border: white;
 }
 
-#name, #title {
-  font-family: 'Lobster', cursive;
-  text-align: center;
-  font-size: 50px;
-  color: black;
-  margin: 2%;
+.container {
+  padding: 1%;
 }
 
-#title {
-  padding-top: 4%;
+.navItem, #navItem {
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 18px;
+  color: #84596B !important;
 }
 
-#about, #press > p {
-  width: 83%;
-  margin: auto;
-  text-align: center;
-  font-family: 'Cormorant Garamond', cursive;
-  font-size: 20px;
-}
-
+/* FOOTER STYLING */
 #footer .footer-icons {
   color: black;
   margin-right: 30px;
@@ -53,56 +37,96 @@ a {
 #footer div {
   text-align: center;
   margin-bottom: 1%;
+  margin-top: 2%;
 }
 
-/* WORK EXPERIENCE STYLING */
-#position, #project {
-  width: 70%;
+/* HOME PAGE STYLING */
+#profile-photo img {
+  border: 5px solid #84596B;
+  display: block;
+  margin: auto;
+  width: 315px;
+  height: 390px;
+}
+
+#name, #title {
+  font-family: 'Fira Sans', Sans-Serif;
+  text-align: center;
+  font-size: 50px;
+  color: #84596B;
+  margin: 2%;
+}
+
+#about, #press > p, #blog > p {
+  width: 83%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 14px;
+  color: #84596B;
+}
+
+/* WORK/LEADERSHIP EXPERIENCE STYLING */
+#position {
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3%;
   overflow: hidden;
 }
 
-#position img, #project img {
+#position img {
   width: 25%;
   float: left;
-  border: 7px solid white;
+  border: solid 3px #84596B;
   border-radius: 20px;
 }
 
-#position > div, #project div {
-  padding-left: 1%;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+#position > div, #position p {
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 16px;
+  color: #84596B;
   width: 70%;
   float: right;
 }
 
-#position #position-title, #project #project-title {
-  font-family: 'Cormorant Garamond', serif;
+#position #position-title {
+  font-family: 'Fira Sans', Sans-Serif;
 }
 
-#position p, #project p {
-  padding-left: 1%;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 18px;
-  width: 70%;
-  float: right;
+#position p {
+  font-size: 14px;
 }
 
-#position-description, #project-description {
-  padding: 1%;
+#position-description {
+  padding-top: 1%;
 }
 
-/* PRESS STYLING */
-#press > ul {
+/* PRESS/BLOG STYLING */
+#press p, #blog p {
+  font-size: 16px;
+}
+
+#press > ul, #blog > ul {
   width: 60%;
   margin: 3% auto;
 }
 
-#press li {
+#press li, #blog li {
   margin-bottom: 1%;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 20px;
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 16px;
+}
+
+/* BLOG STYLING */
+
+#blog-back-button span {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+
+#blog-back-button {
+  font-size: 18px;
 }
