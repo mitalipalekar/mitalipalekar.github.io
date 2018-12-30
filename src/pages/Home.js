@@ -18,7 +18,7 @@ export default class Home extends React.Component {
           to be able to work towards this goal by interning at many top Silicon Valley tech companies like <a><b>Facebook</b></a>, <a><b>LinkedIn</b></a>,
           <a> <b>Stripe</b></a>, <a href='https://eng.uber.com/sre-internship/' target='_blank' rel="noopener noreferrer"><b>Uber</b></a> and  <a><b>NASA</b></a>. 
           I am also an <b>Undergraduate Research Assistant</b> in the <a href='https://seclab.cs.washington.edu/' target='_blank' rel="noopener noreferrer">UW Security 
-          and Privacy Lab Resarch</a>, the <b>Senior Adviser</b> (and past <b>President</b>) of the <a href='http://uwswe.com/' target='_blank' rel="noopener noreferrer">
+          and Privacy Lab Research</a>, the <b>Senior Adviser</b> (and past <b>President</b>) of the <a href='http://uwswe.com/' target='_blank' rel="noopener noreferrer">
           UW Society of Women Engineers</a>, a <b><a href="http://scholars.tune.com/" target='_blank' rel="noopener noreferrer">TUNE House</a> Scholar</b> and a <b><a href="https://twitter.com/neo?lang=en" target='_blank' rel="noopener noreferrer">Neo</a> Scholar</b>.  
           In my free time, I love dancing, travelling, and gorging on guacamole.
         </div>

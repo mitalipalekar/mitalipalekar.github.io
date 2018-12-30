@@ -125,9 +125,9 @@ export default class Reflections_on_2018_Looking_Ahead extends React.Component {
             companies as it allowed me to prototype new experiences, engineering projects and company cultures 
             within the span of few short months.  This gave me key insights into what type of role and people 
             I want to surround myself with after graduation.  I also learnt a very important lesson along the way: 
-            Slow down and take time to invest in things that you really want to.  Don’t be in a rush to graduate; 
-            spending time “figuring things out” will position you much better long term, even if that means you 
-            have to take an extra quarter or two. More on that in another blog post though.
+            <span id="key-takeaway"> Slow down and take time to invest in things that you really want to. </span>  
+            Don’t be in a rush to graduate; spending time “figuring things out” will position you much better long 
+            term, even if that means you have to take an extra quarter or two. More on that in another blog post though.
           </p>
 
           <p>
@@ -142,7 +142,8 @@ export default class Reflections_on_2018_Looking_Ahead extends React.Component {
             “investing in yourself”.  I am so happy that I took the time to engage in activities that made me happy, 
             surround myself with people that I care about and take time off to rejuvenate.  I know that these small 
             investments have made a huge difference to my personal positivity and happiness and it’s something that 
-            I highly recommend to others.  Take time to invest in yourself - later you will definitely thank present you.
+            I highly recommend to others.  <span id="key-takeaway"> Take time to invest in yourself - later you will 
+            definitely thank present you.</span>
           </p>
 
           <div id='subtitle-1'>

@@ -168,6 +168,12 @@ a:hover, a:active {
   color: #84596B;
 }
 
+#key-takeaway {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+
 #blog-back-button span {
   display: block;
   margin: auto;
