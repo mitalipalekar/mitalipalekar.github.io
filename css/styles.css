@@ -124,7 +124,7 @@ a:hover, a:active {
 }
 
 #press > ul, #blog > ul {
-  width: 60%;
+  width: 80%;
   margin: 3% auto;
 }
 
@@ -132,6 +132,12 @@ a:hover, a:active {
   margin-bottom: 1%;
   font-family: 'Fira Sans', Sans-Serif;
   font-size: 16px;
+}
+
+#press > ul > span {
+  font-family: 'Fira Sans', Sans-Serif;
+  font-size: 18px;
+  color: #84596B;
 }
 
 /* BLOG STYLING */
