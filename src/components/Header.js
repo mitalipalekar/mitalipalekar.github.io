@@ -13,29 +13,23 @@ export default class Header extends React.Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav pullRight>
-            <NavItem eventKey={1} href="/work">
-              <span className="navItem">WORK</span>
+            <NavItem eventKey={1} href="/news">
+              <span className="navItem">NEWS</span>
             </NavItem>
-            <NavItem eventKey={3} href="/leadership">
-              <span className="navItem">LEADERSHIP</span>
-            </NavItem>
-            <NavItem eventKey={4} href="/blog">
+            <NavItem eventKey={2} href="/blog">
               <span className="navItem">BLOG</span>
             </NavItem>
-            <NavItem eventKey={4} href="/press">
-              <span className="navItem">PRESS</span>
-            </NavItem>
 
-            <NavDropdown eventKey={5} title="UW PORTFOLIOS" id="navItem">
-              <MenuItem eventKey={5.1} href="http://mitalipalekar.weebly.com" target="_blank" rel="noopener noreferrer">
+            <NavDropdown eventKey={3} title="UW PORTFOLIOS" id="navItem">
+              <MenuItem eventKey={3.1} href="http://mitalipalekar.weebly.com" target="_blank" rel="noopener noreferrer">
                 <span className="navItem">HONORS</span>
               </MenuItem>
-              <MenuItem eventKey={5.2} href="https://hlcmitalipalekar.weebly.com/" target="_blank" rel="noopener noreferrer">
+              <MenuItem eventKey={3.2} href="https://hlcmitalipalekar.weebly.com/" target="_blank" rel="noopener noreferrer">
                 <span className="navItem">HUSKY LEADERSHIP CERTIFICATE</span>
               </MenuItem>
             </NavDropdown>
 
-            <NavItem eventKey={7} href={require("../resume.pdf")} target="_blank" rel="noopener noreferrer">
+            <NavItem eventKey={4} href={require("../resume.pdf")} target="_blank" rel="noopener noreferrer">
               <span className="navItem">RESUME</span>
             </NavItem>
           </Nav>
