@@ -51,7 +51,7 @@
     "q": "1.4.1",
     "qunit-assert-step": "1.0.3",
     "qunitjs": "1.23.1",
-    "requirejs": "2.2.0",
+    "requirejs": "2.3.7",
     "sinon": "1.17.3",
     "sizzle": "2.3.3",
     "strip-json-comments": "2.0.1",
