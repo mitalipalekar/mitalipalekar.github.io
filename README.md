@@ -1,1 +1,3 @@
-Note: This code was AI-generated and has not been peer-reviewed.
+# README
+
+This code was AI-generated and has not been peer-reviewed.
