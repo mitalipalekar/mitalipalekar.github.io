@@ -1,31 +1,95 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
 body {
   width: 100%;
-  height: 100%;
-  background-color: #d5d5d5;
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 
 a {
-  color: #6d7993
+  color: #B58AA5;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: #CECFCE;
+  text-decoration: none;
+}
+
+#logo-container {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+#logo-container #logo {
+  height: 50px;
+  width: auto;
+}
+
+#main-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 20px 5%;
+  gap: 4%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-shrink: 0;
 }
 
 #profile-photo {
-  margin-top: 6%;
+  flex-shrink: 0;
 }
 
-#profile-photo img {
-  border: 5px solid black;
+#profile-photo img,
+#profile-img {
+  border: 5px solid #84596B;
   display: block;
-  margin: auto;
-  width: 315px;
-  height: 335px;
+  width: 260px;
+  height: 290px;
+  border-radius: 50%;
+}
+
+#text-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.extra-bold {
+  font-weight: 900;
+  letter-spacing: 0.3px;
+  text-shadow: 0.5px 0.5px 0.5px rgba(132, 89, 107, 0.3);
 }
 
 #name, #title {
-  font-family: 'Lobster', cursive;
-  text-align: center;
-  font-size: 50px;
-  color: black;
-  margin: 2%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 44px;
+  color: #84596B;
+  margin: 0 0 1.5% 0;
+  padding-bottom: 8px;
 }
 
 #title {
@@ -33,26 +97,69 @@ a {
 }
 
 #about, #press > p {
-  width: 83%;
-  margin: auto;
-  text-align: center;
-  font-family: 'Cormorant Garamond', cursive;
-  font-size: 20px;
+  width: 100%;
+  margin: 0;
+  padding: 5px 0;
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #84596B;
+  line-height: 1.6;
 }
 
-#footer .footer-icons {
-  color: black;
-  margin-right: 30px;
-  margin-top: 1%;
+@media (max-width: 768px) {
+  #main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #name, #title {
+    text-align: center;
+  }
+  
+  #about, #press > p {
+    text-align: center;
+  }
 }
 
-#footer .fa-envelope {
-  margin-left: 5%;
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  padding: 15px 0;
+  z-index: 1000;
 }
 
 #footer div {
   text-align: center;
   margin-bottom: 1%;
+}
+
+.footer-icon-link {
+  display: inline-block;
+  margin-right: 30px;
+  margin-top: 1%;
+}
+
+.footer-icon-link:first-child {
+  margin-left: 0;
+}
+
+.footer-icon {
+  width: 48px;
+  height: 48px;
+  transition: opacity 0.3s;
+}
+
+.footer-icon-link:hover .footer-icon {
+  opacity: 0.7;
+}
+
+#created-by {
+  color: #84596B;
 }
 
 /* WORK EXPERIENCE PAGE FONTS */
@@ -76,19 +183,19 @@ a {
 #position > div, #project div {
   /*border: 1px solid blue;*/
   padding-left: 2%;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   width: 70%;
   float: right;
 }
 
 #position #position-title, #project #project-title {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Lato', sans-serif;
 }
 
 #position p, #project p {
   padding-left: 2%;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   /*border: 2px solid green;*/
   width: 70%;
@@ -106,7 +213,29 @@ a {
 
 #press li {
   margin-bottom: 1%;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
+}
+
+/* Navbar styles */
+#header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.navbar-nav > li > a {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #6d7993;
+  padding: 15px 20px;
+}
+
+.navbar-nav > li > a:hover {
+  color: #4a5568;
+}
+
+.navbar-brand {
+  padding: 10px 15px;
 }
 }
